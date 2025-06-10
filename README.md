@@ -1,6 +1,11 @@
 # Mandelbrot-v2
 Mandelbrot set viewer in SDL
 
+# Reuquirements
+- SDL2
+ - Fedora: dnf install SDL2 SDL2-devel
+- SDL2_image
+ - Fedora: dnf install SDL2_image  SDL2_image-devel
 # Building
 
 ```shell
