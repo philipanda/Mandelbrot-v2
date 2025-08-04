@@ -1,5 +1,5 @@
 all: main.o mandelbrot.o
-	g++ main.o mandelbrot.o -o mandelbrot -lSDL2 -lSDL2_image -g
+	g++ main.o mandelbrot.o -o mandelbrot -lSDL2 -lSDL2_image -ltbb -g
 
 main.o: main.cpp
 	g++ -c main.cpp -g
